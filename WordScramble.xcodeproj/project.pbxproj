@@ -13,6 +13,7 @@
 		108156EC24F197C40090665A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108156EB24F197C40090665A /* Assets.xcassets */; };
 		108156EF24F197C40090665A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108156EE24F197C40090665A /* Preview Assets.xcassets */; };
 		108156F224F197C40090665A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108156F024F197C40090665A /* LaunchScreen.storyboard */; };
+		108156FA24F19FFF0090665A /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 108156F924F19FFF0090665A /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		108156EE24F197C40090665A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		108156F124F197C40090665A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		108156F324F197C40090665A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108156F924F19FFF0090665A /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = start.txt; path = ../../_supplement/HackingWithSwift/SwiftUI/project5/Project5/start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				108156EB24F197C40090665A /* Assets.xcassets */,
 				108156F024F197C40090665A /* LaunchScreen.storyboard */,
 				108156F324F197C40090665A /* Info.plist */,
+				108156F924F19FFF0090665A /* start.txt */,
 				108156ED24F197C40090665A /* Preview Content */,
 			);
 			path = WordScramble;
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				108156F224F197C40090665A /* LaunchScreen.storyboard in Resources */,
+				108156FA24F19FFF0090665A /* start.txt in Resources */,
 				108156EF24F197C40090665A /* Preview Assets.xcassets in Resources */,
 				108156EC24F197C40090665A /* Assets.xcassets in Resources */,
 			);
