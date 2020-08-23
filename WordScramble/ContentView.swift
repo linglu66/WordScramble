@@ -32,11 +32,14 @@ struct ContentView: View {
                         Image(systemName: "\($0.count).circle")
                         Text($0)
                     }
-                    Text("Score: \(score)").padding()
+                    
                     
                 }.navigationBarTitle(rootWord)
-                    .navigationBarItems(trailing: Button("New Word"){
+                    .navigationBarItems(leading: Text("Score: \(score)"), trailing: Button(action:{
+                        self.usedWords = [String]()
                         self.startGame()
+                    }){
+                        Image(systemName: "arrow.clockwise")
                     })
                     .onAppear(perform: startGame)
                     .alert(isPresented: $showingAlert){
